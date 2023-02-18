@@ -93,7 +93,7 @@ model.train(images, lables)
 face_cascade = cv2.CascadeClassifier(haar_file)
 
 try:
-    # webcam = cv2.VideoCapture('rtsp://admin:Adm142!@@192.168.0.109/cam/realmonitor?channel=1&subtype=0')
+    # webcam = cv2.VideoCapture('rtsp://admin:Asaaa!@@192.168.0.109/cam/realmonitor?channel=1&subtype=0')
 
     webcamin = cv2.VideoCapture(read_config_cams()[0])
     webcamout = cv2.VideoCapture(read_config_cams()[1])
